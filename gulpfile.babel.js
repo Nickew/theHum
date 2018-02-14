@@ -8,20 +8,21 @@ import concat from 'gulp-concat';
 import rename from 'gulp-rename';
 import sass from 'gulp-sass';
 import uglify from 'gulp-uglify';
+import imageMin from 'gulp-imagemin';
 
 //** VARS
 const SRC_DIR = './src';
 const PUBLIC_DIR = './public';
 
 gulp.task('js', () => {
-	return gulp.src(SRC_DIR + '/components/**/*.js')
-		.pipe(concat('components.min.js'))
+	return gulp.src(SRC_DIR + '/app/**/*.js')
+		.pipe(concat('common.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest(SRC_DIR + '/js'));
 });
 
 gulp.task('full-js', ['js'], () => {
-	return gulp.src(SRC_DIR + '/js/components.min.js')
+	return gulp.src(SRC_DIR + '/js/common.min.js')
 		.pipe(concat('scripts.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest(SRC_DIR + '/js'))
@@ -38,10 +39,7 @@ gulp.task('browser-sync', () => {
 });
 
 gulp.task('sass', () => {
-	return gulp.src([
-		SRC_DIR + '/components/**/*.sass',
-		SRC_DIR + '/components/**/*.css'
-		])
+	return gulp.src(SRC_DIR + '/app/core.sass')
 		.pipe(sass({outputStyle: 'compressed'}))
 		.pipe(concat('styles.min.css'))
 		.pipe(autoprefixer('last 10 version'))
@@ -51,9 +49,15 @@ gulp.task('sass', () => {
 });
 
 gulp.task('dev', ['sass', 'full-js', 'browser-sync'], () => {
-	gulp.watch([SRC_DIR + '/components/**/*.sass', SRC_DIR + '/components/**/**/*.sass', SRC_DIR + '/components/**/*.css'], ['sass']);
-	gulp.watch([SRC_DIR + '/components/**/*.js', SRC_DIR + '/components/**/**/*.js'], ['full-js']);
+	gulp.watch(SRC_DIR + '/app/core.sass', ['sass']);
+	gulp.watch([SRC_DIR + '/app/**/*.js', SRC_DIR + '/app/**/**/*.js'], ['full-js']);
 	gulp.watch(SRC_DIR + '/*.html', browserSync.reload);
+});
+
+gulp.task('imagemin', () => {
+	return gulp.src(SRC_DIR + '/img/**/*')
+		.pipe(cache(imagemin()))
+		.pipe(gulp.dest(PUBLIC_DIR + '/img')); 
 });
 
 gulp.task('default', ['dev']);

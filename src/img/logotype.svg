@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="logotype.svg">
+  <defs
+     id="defs2">
+    <style
+       id="style14">
+      .cls-1 {
+        fill: #18cfab;
+        fill-rule: evenodd;
+      }
+    </style>
+    <style
+       id="style41">
+      .cls-1 {
+        font-size: 40px;
+        fill: #fff;
+        font-family: Montserrat;
+        font-weight: 700;
+      }
+    </style>
+    <style
+       id="style54">
+      .cls-1 {
+        font-size: 15.428px;
+        fill: #fff;
+        font-family: Montserrat;
+      }
+
+      .cls-2 {
+        fill: #18cfab;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="70.572091"
+     inkscape:cy="1060.5246"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:measure-start="58.125,1136.88"
+     inkscape:measure-end="62.75,1136.88"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="5.126302,292.46381"
+       orientation="0,1"
+       id="guide35"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="4.5640624,283.60027"
+       orientation="0,1"
+       id="guide37"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="7.6398436,282.17813"
+       orientation="1,0"
+       id="guide39"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="16.602604,286.97371"
+       orientation="1,0"
+       id="guide70"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Montserrat;-inkscape-font-specification:Montserrat;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="125.48809"
+       y="82.309517"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="125.48809"
+         y="88.729301"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';stroke-width:0.26458332" /></text>
+    <path
+       d="m 15.3706,13.21146 -7.5446004,4.544216 -7.67291,-4.319585 -0.12833,-8.8635419 7.5446,-4.54395402 7.6729104,4.31958702 z"
+       class="cls-1"
+       data-name="Polygon 1"
+       id="Polygon_1"
+       inkscape:connector-curvature="0"
+       style="fill:#18cfab;fill-rule:evenodd;stroke-width:0.26458332" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot27"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Montserrat;font-style:normal;font-weight:normal;font-size:40px;line-height:25px;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Montserrat;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion29"><rect
+           id="rect31"
+           width="457"
+           height="231"
+           x="256"
+           y="122.51968" /></flowRegion><flowPara
+         id="flowPara33"></flowPara></flowRoot>    <text
+       y="12.705206"
+       x="3.4303236"
+       class="cls-1"
+       id="H"
+       style="font-weight:700;font-size:10.58333302px;font-family:Montserrat;fill:#ffffff;stroke-width:0.26458332"
+       inkscape:transform-center-x="-0.033072917"
+       inkscape:transform-center-y="0.033072917">H</text>
+    <text
+       transform="scale(0.99927652,1.000724)"
+       class="cls-1"
+       id="theHam"
+       x="18.081009"
+       y="12.132371"
+       style="font-size:8.45992565px;font-family:Montserrat;fill:#ffffff;stroke-width:0.54834884">the<tspan
+   id="tspan58"
+   class="cls-2"
+   style="font-weight:700;fill:#18cfab;stroke-width:0.54834884">Ham</tspan>
+</text>
+  </g>
+</svg>
