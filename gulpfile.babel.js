@@ -49,7 +49,7 @@ gulp.task('sass', () => {
 });
 
 gulp.task('dev', ['sass', 'full-js', 'browser-sync'], () => {
-	gulp.watch(SRC_DIR + '/app/core.sass', ['sass']);
+	gulp.watch([SRC_DIR + '/app/core.sass', SRC_DIR + '/app/**/**/*.sass', SRC_DIR + '/app/**/**/**/*.sass'], ['sass']);
 	gulp.watch([SRC_DIR + '/app/**/*.js', SRC_DIR + '/app/**/**/*.js'], ['full-js']);
 	gulp.watch(SRC_DIR + '/*.html', browserSync.reload);
 });
