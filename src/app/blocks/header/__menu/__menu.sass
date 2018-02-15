@@ -1,14 +1,27 @@
 .h-header__menu
+	height: 100%
 	font-weight: 700
 	font-size: 13px
 	&--list
+		height: 100%
 		list-style-type: none
 		display: flex
 	&--item
+		height: 100%
 		padding-right: 18px
 	&--item > a
+		display: flex
+		align-items: center
+		height: 100%
 		color: $t-silver
 		text-transform: uppercase
 		text-decoration: none
+	&--item:last-child
+		padding-right: 0
 	&--active
 		color: $bgc-seagreen!important
+		box-shadow: 0 5px 0 -3px $bgc-seagreen
+
+.fa-search
+	font-size: 22px
+
