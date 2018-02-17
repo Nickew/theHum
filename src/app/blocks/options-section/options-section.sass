@@ -2,8 +2,9 @@
 
 	&__container
 		display: flex
-		height: 374px
+		max-height: 750px
 	&__item
+		height: 375px
 		display: flex
 		flex: 1
 		flex-direction: column
@@ -18,9 +19,44 @@
 			border-top: 7px solid #fff
 			color: #fff
 	&__item-title
+		text-align: center
 		text-transform: uppercase
 		font-weight: 700
 		font-size: 20px
 	&__item-logotype
+		margin-bottom: 20px
+		width: 93px
+		height: 100px
+		display: flex
+		justify-content: center
 
 	&--flex
+
+@media screen and (max-width: 1200px)
+	.h-options-section
+		&__item
+			height: 300px
+
+@media screen and (max-width: 992px)
+	.h-options-section
+		&__item
+			height: 250px
+
+@media screen and (max-width: 800px)
+	.h-options-section
+		&__container
+			flex-direction: column
+		&__item
+			height: auto
+			padding: 75px 0
+			&--midnight
+				border: none
+			&--seagreen
+				border: none
+			&--midnight:first-child
+				border-top: 7px solid $bgc-seagreen
+		&__item-logotype
+			margin-bottom: 0
+			width: auto
+			height: auto
+			display: block
