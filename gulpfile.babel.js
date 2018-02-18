@@ -15,14 +15,17 @@ const SRC_DIR = './src';
 const PUBLIC_DIR = './public';
 
 gulp.task('js', () => {
-	return gulp.src(SRC_DIR + '/app/**/*.js')
+	return gulp.src(SRC_DIR + '/app/**/**/*.js')
 		.pipe(concat('common.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest(SRC_DIR + '/js'));
 });
 
 gulp.task('full-js', ['js'], () => {
-	return gulp.src(SRC_DIR + '/js/common.min.js')
+	return gulp.src([
+			SRC_DIR + '/libs/jquery-3.3.1.min.js',
+			SRC_DIR + '/js/common.min.js'
+		])
 		.pipe(concat('scripts.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest(SRC_DIR + '/js'))
