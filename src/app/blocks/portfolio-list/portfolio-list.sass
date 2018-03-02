@@ -6,7 +6,21 @@
 	padding-top: 70px
 	display: flex
 	flex-wrap: wrap
-	padding-bottom: 70px
+	&__btn-load
+		display: inline-flex
+		align-items: center
+		margin: 70px auto 100px auto
+		text-decoration: none
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+		color: #fff
+		background: $bgc-seagreen
+		border-radius: 3px
+		padding: 20px 22px
+		.fa
+			margin-right: 15px
+			font-size: 20px
 .h-portfolio-item
 	position: relative
 	width: 25%
@@ -14,13 +28,37 @@
 		display: block
 		width: 100%
 	&__buttons
-
+		display: flex
+		padding-bottom: 35px
+		width: 90px
+		justify-content: space-between
 	&__btn
-
+		border: 1px solid $bgc-seagreen
+		border-radius: 50%
+		color: $bgc-seagreen
+		text-decoration: none
+		display: inline-flex
+		align-items: center
+		justify-content: center
+		height: 40px
+		width: 40px
+		transition: all .25s ease
+		&:hover
+			background: $bgc-seagreen
+			color: #fff
+		.fa
+			font-size: 16px
 	&__title
-
+		color: $bgc-seagreen
+		font-size: 14px
+		font-weight: 700
+		padding-bottom: 10px
+		text-transform: uppercase
 	&__category
-
+		color: #8a8a8a
+		font-size: 12px
+		margin: 0
+		padding: 0
 	&--hover
 		width: 100%
 		height: 100%
@@ -35,5 +73,16 @@
 		display: flex
 		justify-content: center
 		align-items: center
+		flex-direction: column
 	&--hover:hover
 		opacity: 1
+
+
+@media screen and (max-width: 800px)
+	.h-portfolio-item
+		&__buttons
+			padding-bottom: 15px
+
+@media screen and (max-width: 768px)
+	.h-portfolio-item
+		width: 50%
